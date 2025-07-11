@@ -29,35 +29,21 @@ StudyBuddyApp is an AI-powered study assistant that helps you learn faster and s
 ## Installation
 
 1. Clone the repository:
-
-   ```bash
    git clone https://github.com/bhavesh-kalluru/StudyBuddyApp.git
    cd StudyBuddyApp
-(Optional but recommended) Create and activate a virtual environment:
+   
+2.Create and activate a virtual environment:
+  python3 -m venv venv
+  source venv/bin/activate  
 
-bash
-Copy
-Edit
-python3 -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-Install the required Python packages:
+3.Install the required Python packages:
+  pip install -r requirements.txt
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Create a .env file in the project root directory and add your OpenAI API key:
+4.Create a .env file in the project root directory and add your OpenAI API key:
+  OPENAI_API_KEY=your_openai_api_key_here
 
-ini
-Copy
-Edit
-OPENAI_API_KEY=your_openai_api_key_here
-Usage
-To run the app locally with Streamlit:
 
-bash
-Copy
-Edit
-streamlit run app.py
-Open your web browser and go to http://localhost:8501 to access the StudyBuddyApp interface.
+
+5.streamlit run app.py
+  Open your web browser and go to http://localhost:8501 to access the StudyBuddyApp interface.
 
